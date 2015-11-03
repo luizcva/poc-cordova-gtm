@@ -9,8 +9,9 @@
     },
     "com.jareddickson.cordova.tag-manager": {
         "source": {
-            "type": "local",
-            "path": "/projetos/workspace-sas/cordova-plugin-tag-manager"
+            "type": "git",
+            "url": "https://github.com/luizcva/cordova-plugin-tag-manager.git",
+            "subdir": "."
         },
         "is_top_level": true,
         "variables": {}

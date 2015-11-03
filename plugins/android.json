@@ -9,11 +9,11 @@
                 "parents": {
                     "/*": [
                         {
-                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "xml": "<feature name=\"TagManager\"><param name=\"android-package\" value=\"com.jareddickson.cordova.tagmanager.CDVTagManager\" /></feature>",
                             "count": 1
                         },
                         {
-                            "xml": "<feature name=\"TagManager\"><param name=\"android-package\" value=\"com.jareddickson.cordova.tagmanager.CDVTagManager\" /></feature>",
+                            "xml": "<feature name=\"Whitelist\"><param name=\"android-package\" value=\"org.apache.cordova.whitelist.WhitelistPlugin\" /><param name=\"onload\" value=\"true\" /></feature>",
                             "count": 1
                         }
                     ]
@@ -58,11 +58,11 @@
         }
     },
     "installed_plugins": {
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "br.com.lab.testegtmapp"
-        },
         "com.jareddickson.cordova.tag-manager": {
-            "PACKAGE_NAME": "br.com.lab.testegtmapp"
+            "PACKAGE_NAME": "br.com.luizcva.lab.poccordovagtm"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "br.com.luizcva.lab.poccordovagtm"
         }
     },
     "dependent_plugins": {}

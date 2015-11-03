@@ -1,15 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.lab.testegtmapp" version="1.0.7" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.luizcva.lab.poccordovagtm" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
-    <feature name="Whitelist">
-        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
-        <param name="onload" value="true" />
-    </feature>
-    <feature name="TagManager">
-        <param name="android-package" value="com.jareddickson.cordova.tagmanager.CDVTagManager" />
-    </feature>
     <allow-intent href="market:*" />
-    <name>Teste GTM App</name>
+    <name>POC Cordova GTM App</name>
     <description>
         Hello World sample application that responds to the deviceready event.
     </description>
@@ -82,4 +75,11 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
+    <feature name="TagManager">
+        <param name="android-package" value="com.jareddickson.cordova.tagmanager.CDVTagManager" />
+    </feature>
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
 </widget>

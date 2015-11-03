@@ -72,7 +72,6 @@ public class CDVTagManager extends CordovaPlugin {
                  * 1. a saved container is loaded
                  * 2. if there is no saved container, a network container is loaded
                  * 3. the request times out. The example below uses a constant to manage the timeout period.
-                 * @see https://developers.google.com/android/reference/com/google/android/gms/tagmanager/TagManager
                  */
                 PendingResult<ContainerHolder> pending = tagManager.loadContainerPreferNonDefault(args.getString(0), -1);
                 pending.setResultCallback(new ResultCallback<ContainerHolder>() {

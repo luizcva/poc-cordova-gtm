@@ -17,7 +17,7 @@
        under the License.
  */
 
-package br.com.lab.testegtmapp;
+package br.com.luizcva.lab.poccordovagtm;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
